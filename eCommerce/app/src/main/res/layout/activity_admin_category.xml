@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Product"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:layout_marginTop="40dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/t_shirt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/tshirts"
+            android:onClick="categoryTshirt"/>
+        <ImageView
+            android:id="@+id/sport_Tshirt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/sports"
+            android:onClick="categorySportTshirt"/>
+        <ImageView
+            android:id="@+id/female_dress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/female_dresses"
+            android:onClick="categoryFemaleDresses"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/sweather"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/sweather"
+            android:onClick="categorySweather"/>
+        <ImageView
+            android:id="@+id/hats"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/hats"
+            android:onClick="categoryHats"/>
+        <ImageView
+            android:id="@+id/bags"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/purses_bags"
+            android:onClick="categoryPurses"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/glasses"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/glasses"
+            android:onClick="categoryGlasses"/>
+        <ImageView
+            android:id="@+id/shoes"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/shoess"
+            android:onClick="categoryShoes"/>
+        <ImageView
+            android:id="@+id/watch"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/watches"
+            android:onClick="categoryWatches"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/headphone"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/headphoness"
+            android:onClick="categoryWatches"/>
+        <ImageView
+            android:id="@+id/laptop"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/laptops"
+            android:onClick="categoryLaptop"/>
+        <ImageView
+            android:id="@+id/smartphone"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/mobiles"
+            android:onClick="categoryMobilePhones"/>
+
+    </LinearLayout>
+</LinearLayout>

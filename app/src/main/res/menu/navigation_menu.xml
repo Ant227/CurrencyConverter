@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+  <item
+      android:id="@+id/mm_page"
+      android:title="Myanmar"
+      />
+    <item
+        android:id="@+id/us_page"
+        android:title="United States"
+        />
+    <item
+        android:id="@+id/china_page"
+        android:title="China"
+        />
+    <item
+        android:id="@+id/thai_page"
+        android:title="Thailand"
+       />
+    <item
+        android:id="@+id/vietnam_page"
+        android:title="Vietnam"
+        />
+
+
+
+
+
+</menu>
